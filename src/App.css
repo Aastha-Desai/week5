@@ -1,0 +1,63 @@
+body {
+  background: url('https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_1280.jpg');
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+
+.app {
+  text-align: center;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  max-width: 700px;
+  margin: 2rem auto;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  margin: 1rem;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.card {
+  margin: 1rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.tags span {
+  background-color: #d2a749;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 8px;
+  margin: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+  background-color: #f88;
+  padding: 5px 10px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 5px;
+  color: white;
+}
